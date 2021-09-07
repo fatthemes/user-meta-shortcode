@@ -19,7 +19,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 class User_Meta_Shortcode {
 
 	private static $_instance   = null;
-	private $_user_table_fields = array( 'user_login', 'user_email', 'user_url', 'display_name', 'user_nicename', 'user_pass', 'ID', 'user_registered' );
+	private $_user_table_fields = array( 'user_login', 'user_email', 'user_url',
+	'display_name', 'user_nicename', 'user_pass', 'ID', 'user_registered' );
 
 	public function __construct() {
 		add_shortcode( 'user_meta', array( $this, 'user_meta_shortcode' ) );
