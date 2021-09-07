@@ -1,0 +1,21 @@
+Goal -
+1. Use block editor (Gutenberg) instead of/ along with shortcode
+2. Add a block with options for the user to choose which user meta data will be displayed
+
+Work done -
+1. Checked all links sent
+2. Logged into WordPress account and explored the test page
+3. Forked and cloned the git repository
+4. Looked into shortcodes and block editor
+5. Looking into writing WordPress plugins and shortcodes to better understand the user_meta_shortcode file as well as how to edit it to get desired results.
+6. Installed WordPress locally in my system so I can see the effects of the changes made in the plugin file without affecting the original WordPress site.
+
+Issues -
+1. Cannot open DB GUI and SFTP
+   But I decided to look into it later and focus more on what is working right now - the WordPress site and plugin code.
+
+Queries/Requests
+
+It will take me a while to get used to shortcode and WordPress plugins. I will get to editing/writing new code as soon as I get the hang of WordPress first. It might take a couple of days, so I hope it is not a problem.
+
+Time spent today (IST) - 1:30 pm - 8 pm (half an hour coffee break)
