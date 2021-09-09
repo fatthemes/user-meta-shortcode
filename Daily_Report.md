@@ -35,3 +35,15 @@ Work plan -
 3. Merging them so that only those data fields are displayed that the user checked themselves
 
 Time spent (IST) - 8am - 12pm, 1pm - 7pm
+
+September 9th, 2021
+
+Work Done -
+1. Checked out Gutenberg form plugin as the form builder for site. It has been especially designed for working with Gutenberg editor and can be used to easily build forms.  Unfortunately, I could not figure out how to retrieve that data using code to utilise it
+2. Built php form with checkboxes for the display. It will need to be further merged with other codes to obtain user metadata.
+3. Looked into CSS and Javascript for WordPress
+
+Queries -
+Do you want only custom written php plugins for functionality? or are you open to mixing existing plugins, and using a combination of CSS and JavaScript to show and hide elements? Another way to implement the objective can be simply adding hide buttons for each data field and hiding the data when it is clicked. I am not sure if we can get the same functionality in WordPress, but I would look into it.
+
+Time Spent(IST) - 9am - 1pm, 2pm - 6pm
