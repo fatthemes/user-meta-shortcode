@@ -1,6 +1,39 @@
-Goal -
-1. Use block editor (Gutenberg) instead of/ along with shortcode
-2. Add a block with options for the user to choose which user meta data will be displayed
+September 10th, 2021
+
+Work Done-
+Added custom block using create-block functionality
+
+Issues -
+The moment I change anything in the custom code, whole thing crashes down
+
+Time Spent (IST) - 10am - 1pm, 2pm - 7pm
+
+September 9th, 2021
+
+Work Done -
+1. Checked out Gutenberg form plugin as the form builder for site. It has been especially designed for working with Gutenberg editor and can be used to easily build forms.  Unfortunately, I could not figure out how to retrieve that data using code to utilise it
+2. Built php form with checkboxes for the display. It will need to be further merged with other codes to obtain user metadata.
+3. Looked into CSS and Javascript for WordPress
+
+Queries -
+Do you want only custom written php plugins for functionality? or are you open to mixing existing plugins, and using a combination of CSS and JavaScript to show and hide elements? Another way to implement the objective can be simply adding hide buttons for each data field and hiding the data when it is clicked. I am not sure if we can get the same functionality in WordPress, but I would look into it.
+
+Time Spent(IST) - 9am - 1pm, 2pm - 6pm
+
+September 8th, 2021
+
+Work done -
+1. Checked the Gutenberg example repository
+2. Checking the existing plugins for required functions to incorporate/ modify them for required functionality
+3. Working on writing a custom plugin for WordPress
+
+Work plan -
+1. For checkboxes - basic php code incorporated in a plugin with shortcode, look for plugins that provide checkboxes for users to select
+2. For getting User Data - user-meta-shortcode file or some variation of it, or custom program with get_user_data() to access individual fields
+3. Merging them so that only those data fields are displayed that the user checked themselves
+
+Time spent (IST) - 8am - 12pm, 1pm - 7pm
+
 
 September 7th, 2021
 
@@ -21,29 +54,3 @@ Queries/Requests
 It will take me a while to get used to shortcode and WordPress plugins. I will get to editing/writing new code as soon as I get the hang of WordPress first. It might take a couple of days, so I hope it is not a problem.
 
 Time spent (IST) - 1:30pm - 8pm (half an hour coffee break)
-
-September 8th, 2021
-
-Work done -
-1. Checked the Gutenberg example repository
-2. Checking the existing plugins for required functions to incorporate/ modify them for required functionality
-3. Working on writing a custom plugin for WordPress
-
-Work plan -
-1. For checkboxes - basic php code incorporated in a plugin with shortcode, look for plugins that provide checkboxes for users to select
-2. For getting User Data - user-meta-shortcode file or some variation of it, or custom program with get_user_data() to access individual fields
-3. Merging them so that only those data fields are displayed that the user checked themselves
-
-Time spent (IST) - 8am - 12pm, 1pm - 7pm
-
-September 9th, 2021
-
-Work Done -
-1. Checked out Gutenberg form plugin as the form builder for site. It has been especially designed for working with Gutenberg editor and can be used to easily build forms.  Unfortunately, I could not figure out how to retrieve that data using code to utilise it
-2. Built php form with checkboxes for the display. It will need to be further merged with other codes to obtain user metadata.
-3. Looked into CSS and Javascript for WordPress
-
-Queries -
-Do you want only custom written php plugins for functionality? or are you open to mixing existing plugins, and using a combination of CSS and JavaScript to show and hide elements? Another way to implement the objective can be simply adding hide buttons for each data field and hiding the data when it is clicked. I am not sure if we can get the same functionality in WordPress, but I would look into it.
-
-Time Spent(IST) - 9am - 1pm, 2pm - 6pm
