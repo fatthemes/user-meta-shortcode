@@ -1,3 +1,14 @@
+September 13th, 2021
+
+Work Done-
+Added plugin with custom block from scratch
+
+Query -
+In the initial email, you had mentioned about using select or dropbox component for the user to choose which meta data to display. But that would allow only one option to be selected. Is that what you would prefer? Only one option, or would you prefer multiple? Also, does the user refers to the person adding the block to the post? I will add the component accordingly.
+
+Time Spent (IST) - 10am - 3pm, 4pm - 7pm
+
+
 September 10th, 2021
 
 Work Done-
