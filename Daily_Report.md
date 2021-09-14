@@ -1,3 +1,10 @@
+September 14th, 2021
+
+Work Done -
+Completed the required block with select option to show chosen user metadata
+
+Time Spent (IST) - 11am - 3pm, 4pm - 8pm
+
 September 13th, 2021
 
 Work Done-
