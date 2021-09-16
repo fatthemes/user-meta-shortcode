@@ -34,16 +34,40 @@ class MyUserMetaSelect{
     $first_name = $data->first_name;
     $last_name = $data->last_name;
     if( $attributes['choice'] == 1) {
-       $message = 'First Name: '.$first_name;
+       if(!empty($first_name))
+       {
+          $message = 'First Name: '.$first_name;
+       }
+       else {
+         $message = 'First Name: This field is empty';
+       }
      }
     elseif ($attributes['choice'] == 2) {
-      $message = 'Last Name: '.$last_name;
+      if (!empty($last_name))
+      {
+        $message = 'Last Name: '.$last_name;
+      }
+      else{
+        $message = 'Last Name: This field is empty';
+      }
     }
     elseif ($attributes['choice'] == 3) {
-      $message = 'User ID: '.$username;
+      if(!empty($username))
+      {
+        $message = 'User ID: '.$username;
+      }
+      else {
+        $message = 'User ID: This field is empty';
+      }
     }
     elseif ($attributes['choice'] == 4){
-      $message = 'User Email: '.$user_email;
+      if(!empty($user_email))
+      {
+        $message = 'User Email: '.$user_email;
+      }
+      else {
+        $message = 'User Email: This field is empty';
+      }
     }
     ob_start();?>
      <div>

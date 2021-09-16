@@ -1,8 +1,9 @@
 September 16th, 2021
 Work Done -
-Added esc element and CSS to the block
+Added esc element and CSS to the block.
+Added message for empty fields.
 
-Time spent (IST) - 9am - 11am
+Time spent (IST) - 9am - 12pm
 
 September 14th, 2021
 
