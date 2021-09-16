@@ -1,3 +1,6 @@
+import "./editor.scss"
+import "./style.scss"
+
 wp.blocks.registerBlockType("ourplugin/usermetaselect", {
   title: "User Meta Select",
   icon: "heart",
@@ -15,7 +18,7 @@ wp.blocks.registerBlockType("ourplugin/usermetaselect", {
 function editComponent(props){
 
   return (
-    <div>
+    <div className="select-container">
        <select onChange={e=>props.setAttributes({choice: e.target.value})}>
           <option value=''>Select the user data to be displayed: </option>
           <option value='1' selected={props.attributes.choice == 1 } >First Name</option>

@@ -1,3 +1,9 @@
+September 16th, 2021
+Work Done -
+Added esc element and CSS to the block
+
+Time spent (IST) - 9am - 11am
+
 September 14th, 2021
 
 Work Done -

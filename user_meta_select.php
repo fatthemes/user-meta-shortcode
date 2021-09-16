@@ -15,9 +15,13 @@ class MyUserMetaSelect{
     add_action('init',array($this,'adminAsset'));
   }
   function adminAsset(){
-    wp_register_script('myblock',plugin_dir_url(__FILE__).'build/index.js',array('wp-blocks','wp-element'));
+    wp_register_script('myblockScript',plugin_dir_url(__FILE__).'build/index.js',array('wp-blocks','wp-element','wp-i18n', 'wp-editor'));
+    wp_register_style('myblockStyle', plugin_dir_url(__FILE__) . 'build/editor.css');
+    wp_register_style('myblockStyleComplete', plugin_dir_url(__FILE__) . 'build/style-index.css');
     register_block_type('ourplugin/usermetaselect', array(
-      'editor_script'=>'myblock',
+      'editor_script'=>'myblockScript',
+      'editor_style' => 'myblockStyle',
+      'style' => 'myblockStyleComplete',
       'render_callback'=> array($this, 'displayUserMeta')
     ));
   }
@@ -41,7 +45,10 @@ class MyUserMetaSelect{
     elseif ($attributes['choice'] == 4){
       $message = 'User Email: '.$user_email;
     }
-    return '<p>If you are logged in, you will be able to see the following user data: </p>'.$message;
+    ob_start();?>
+     <div>
+     <p>If you are logged in, you will be able to see the following user data: </p><p class="userdata"><?php echo esc_html($message);?></p></div>
+     <?php return ob_get_clean();
 
   }
 

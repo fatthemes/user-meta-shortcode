@@ -1,0 +1,10 @@
+.select-container {
+  position: relative;
+  z-index: 1;
+  padding: 15px;
+  background-color: lightseagreen;
+
+  select {
+    width: 100%;
+  }
+}
